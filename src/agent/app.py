@@ -2,13 +2,16 @@ import streamlit as st
 import sys
 from pathlib import Path
 
-# Add project root and src/ to sys.path so 'agent.*' imports resolve on Streamlit Cloud
-ROOT_DIR = Path(__file__).resolve().parent.parent
-if str(ROOT_DIR) not in sys.path:
-    sys.path.insert(0, str(ROOT_DIR))
+# Force both src/ and repository root into sys.path
+CURRENT_FILE = Path(__file__).resolve()
+SRC_DIR = CURRENT_FILE.parent.parent        # .../src
+REPO_ROOT = SRC_DIR.parent                  # .../executive-productivity-agent
 
-# Existing imports continue below:
-from agent.core import ExecutiveProductivityAgent
+for path_dir in [str(SRC_DIR), str(REPO_ROOT)]:
+    if path_dir not in sys.path:
+        sys.path.insert(0, path_dir)
+
+# Existing imports follow:
 from agent.core import ExecutiveProductivityAgent
 from agent.config import config
 
