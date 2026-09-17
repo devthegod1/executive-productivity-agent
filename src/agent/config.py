@@ -1,14 +1,13 @@
 import os
+from dataclasses import dataclass
+from dotenv import load_dotenv
 
-# Attempt to read from environment or Streamlit secrets
-api_key = os.getenv("MISTRAL_API_KEY")
-if not api_key:
-    try:
-        import streamlit as st
-        if "MISTRAL_API_KEY" in st.secrets:
-            api_key = st.secrets["MISTRAL_API_KEY"]
-    except Exception:
-        pass
+load_dotenv()
 
-if not api_key:
-    raise ValueError("MISTRAL_API_KEY is not set. Add it to .env or Streamlit Cloud secrets.")
+@dataclass(frozen=True)
+class Config:
+    MISTRAL_API_KEY: str = os.getenv("MISTRAL_API_KEY", "")
+    MISTRAL_MODEL: str = os.getenv("MISTRAL_MODEL", "mistral-large-latest")
+    SIMULATED_NOW: str = os.getenv("SIMULATED_NOW", "2026-09-24T17:00:00")
+
+config = Config()

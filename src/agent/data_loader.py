@@ -3,10 +3,7 @@ from pathlib import Path
 from typing import Dict, List, Optional
 from agent.models import Person, CalendarEvent, Email, VoiceNote, MeetingTranscript
 
-#DATA_DIR = Path(__file__).resolve().parent.parent.parent / "data"
-# Always anchors to the repo root regardless of current working directory
-BASE_DIR = Path(__file__).resolve().parent.parent.parent
-DATA_DIR = BASE_DIR / "data"
+DATA_DIR = Path(__file__).resolve().parent.parent.parent / "data"
 
 _PEOPLE_CACHE: Optional[List[Person]] = None
 _CALENDARS_CACHE: Optional[Dict[str, List[CalendarEvent]]] = None

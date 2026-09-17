@@ -60,7 +60,6 @@ class MistralAgentRunner:
                 else:
                     fn_args = {}
                 reasoning_trace.append(f"Invoked tool `{fn_name}` with args `{fn_args}`")
-
                 fn = TOOL_MAP.get(fn_name)
                 result = fn(**fn_args) if fn else {"error": f"Unknown tool: {fn_name}"}
 

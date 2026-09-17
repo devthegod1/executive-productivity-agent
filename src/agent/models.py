@@ -1,5 +1,5 @@
 from typing import Optional, List
-from pydantic import BaseModel, ConfigDict, Field
+from pydantic import BaseModel, Field,ConfigDict
 
 class Person(BaseModel):
     name: str
@@ -13,8 +13,6 @@ class CalendarEvent(BaseModel):
     event: str
 
 class Email(BaseModel):
-
-
     model_config = ConfigDict(populate_by_name=True)
     thread: str
     seq: int
@@ -23,7 +21,6 @@ class Email(BaseModel):
     to: List[str]
     body: str
 
-    
 
 class VoiceNote(BaseModel):
     id: str

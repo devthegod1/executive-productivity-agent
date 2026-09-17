@@ -1,18 +1,5 @@
 import streamlit as st
-import sys
-from pathlib import Path
-
-# Force both src/ and repository root into sys.path
-CURRENT_FILE = Path(__file__).resolve()
-SRC_DIR = CURRENT_FILE.parent.parent        # .../src
-REPO_ROOT = SRC_DIR.parent                  # .../executive-productivity-agent
-
-for path_dir in [str(SRC_DIR), str(REPO_ROOT)]:
-    if path_dir not in sys.path:
-        sys.path.insert(0, path_dir)
-
-# Existing imports follow:
-from src.agent.core import ExecutiveProductivityAgent
+from agent.core import ExecutiveProductivityAgent
 from agent.config import config
 
 st.set_page_config(page_title="Executive Productivity Agent", page_icon="👔", layout="wide")
