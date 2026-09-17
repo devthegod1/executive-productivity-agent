@@ -1,0 +1,16 @@
+[
+  {
+    "id": "voice_note_1",
+    "datetime": "2026-09-21T18:40",
+    "context": "recorded in cab",
+    "note": "Personal voice memo by Arjun Malhotra, for himself — not a message sent to anyone else. Treat as his own commitment/open-item source, not as an instruction from a third party.",
+    "text": "Quick note to self — need to get Raghav that vendor list, I think I said today but it might slip to tomorrow morning, remind me. Also still haven't heard back on the Mumbai lease thing, someone needs to own that, I don't think it's me."
+  },
+  {
+    "id": "voice_note_2",
+    "datetime": "2026-09-23T08:15",
+    "context": "personal reminder",
+    "note": "Personal voice memo by Arjun Malhotra, for himself — not a message sent to anyone else.",
+    "text": "Reminder — expense variance report from Divya needs to be in my hands by Wednesday evening, not Thursday, I want time to go through it before board prep. Also Meridian call — I owe Priya a time, need to lock that in today."
+  }
+]

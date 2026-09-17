@@ -1,0 +1,44 @@
+{
+  "Arjun Malhotra": [
+    {"day": "Mon 21 Sep", "time": "09:00-09:35", "event": "Leadership Sync"},
+    {"day": "Mon 21 Sep", "time": "14:00-14:30", "event": "1:1 with Neha"},
+    {"day": "Mon 21 Sep", "time": "16:00-17:00", "event": "Blocked"},
+    {"day": "Tue 22 Sep", "time": "11:00-12:00", "event": "Internal Budget Review"},
+    {"day": "Tue 22 Sep", "time": "15:00-15:30", "event": "Blocked"},
+    {"day": "Wed 23 Sep", "time": "15:00-15:30", "event": "Call — Meridian Logistics"},
+    {"day": "Wed 23 Sep", "time": "18:00-18:15", "event": "Blocked"},
+    {"day": "Thu 24 Sep", "time": "09:00-10:00", "event": "Board Prep Session"},
+    {"day": "Thu 24 Sep", "time": "16:00-17:00", "event": "Hiring Panel — Sales Associate"},
+    {"day": "Fri 25 Sep", "time": "10:00-10:30", "event": "Facilities Check-in"},
+    {"day": "Fri 25 Sep", "time": "13:00-14:00", "event": "Blocked"}
+  ],
+  "Neha Kapoor": [
+    {"day": "Mon 21 Sep", "time": "10:00-11:00", "event": "Blocked"},
+    {"day": "Mon 21 Sep", "time": "14:00-14:30", "event": "1:1 with Arjun"},
+    {"day": "Tue 22 Sep", "time": "13:00-14:00", "event": "Campaign Vendor Call"},
+    {"day": "Wed 23 Sep", "time": "10:00-10:30", "event": "Deck Prep"},
+    {"day": "Wed 23 Sep", "time": "13:00-15:00", "event": "Blocked"},
+    {"day": "Thu 24 Sep", "time": "09:30-10:00", "event": "Deck Review with Arjun"},
+    {"day": "Fri 25 Sep", "time": "11:00-12:00", "event": "Blocked"}
+  ],
+  "Raghav Sethi": [
+    {"day": "Mon 21 Sep", "time": "09:00-09:35", "event": "Leadership Sync"},
+    {"day": "Mon 21 Sep", "time": "13:00-14:00", "event": "Blocked"},
+    {"day": "Tue 22 Sep", "time": "11:00-12:00", "event": "Internal Budget Review"},
+    {"day": "Tue 22 Sep", "time": "15:30-16:00", "event": "Ops Standup"},
+    {"day": "Wed 23 Sep", "time": "09:00-11:00", "event": "Blocked"},
+    {"day": "Thu 24 Sep", "time": "14:00-15:00", "event": "Blocked"},
+    {"day": "Fri 25 Sep", "time": "10:00-10:30", "event": "Facilities Check-in"},
+    {"day": "Fri 25 Sep", "time": "15:00-16:00", "event": "Blocked"}
+  ],
+  "Divya Rao": [
+    {"day": "Mon 21 Sep", "time": "14:30-15:00", "event": "Budget Prep"},
+    {"day": "Mon 21 Sep", "time": "16:00-17:00", "event": "Blocked"},
+    {"day": "Tue 22 Sep", "time": "09:00-09:15", "event": "Quick Call with Arjun"},
+    {"day": "Tue 22 Sep", "time": "11:00-12:00", "event": "Internal Budget Review"},
+    {"day": "Wed 23 Sep", "time": "13:00-14:00", "event": "Blocked"},
+    {"day": "Thu 24 Sep", "time": "09:00-10:00", "event": "Board Prep Session"},
+    {"day": "Thu 24 Sep", "time": "14:00-15:00", "event": "Blocked"},
+    {"day": "Fri 25 Sep", "time": "10:00-11:00", "event": "Blocked"}
+  ]
+}
