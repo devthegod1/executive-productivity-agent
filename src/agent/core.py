@@ -1,4 +1,4 @@
-from agent.config import config
+from src.agent.config import config
 from agent.models import AgentResponse
 from agent.prompts import SYSTEM_PROMPT, BRIEFING_USER_PROMPT
 from agent.mistral_client import MistralAgentRunner

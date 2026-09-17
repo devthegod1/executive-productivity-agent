@@ -7,4 +7,4 @@ if str(SRC_DIR) not in sys.path:
     sys.path.insert(0, str(SRC_DIR))
 
 # Directly import and run the main entry point
-from agent import app
+from src.agent import app

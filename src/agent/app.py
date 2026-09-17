@@ -12,7 +12,7 @@ for path_dir in [str(SRC_DIR), str(REPO_ROOT)]:
         sys.path.insert(0, path_dir)
 
 # Existing imports follow:
-from agent.core import ExecutiveProductivityAgent
+from src.agent.core import ExecutiveProductivityAgent
 from agent.config import config
 
 st.set_page_config(page_title="Executive Productivity Agent", page_icon="👔", layout="wide")
